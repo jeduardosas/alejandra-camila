@@ -266,23 +266,13 @@ const Invitacion = () => {
                   <h3>Código de Vestimenta</h3>
                 </div>
                 <div className="regalos-vestimenta-body">
-                  <p>Amablemente te sugerimos usar estos colores para mi día especial.</p>
+                  <p>Amablemente te sugerimos usar estos colores para mi día especial &#40;Colores claros&#41;.</p>
                   <div className="regalos-vestimenta-body-colors">
                     <div className="regalos-vestimenta-body-colors_color1"></div>
                     <div className="regalos-vestimenta-body-colors_color2"></div>
                     <div className="regalos-vestimenta-body-colors_color3"></div>
                     <div className="regalos-vestimenta-body-colors_color4"></div>
                   </div>
-                </div>
-              </div>
-
-              <div className="regalos-sobres">
-                <div className="regalos-sobres-tittle">
-                  <img src="./icons/sobres.svg" alt="" />
-                  <h3>Lluvia de Sobres</h3>
-                </div>
-                <div className="regalos-sobres-body">
-                  <p>{regalos_frase}</p>
                 </div>
               </div>
 
@@ -296,6 +286,17 @@ const Invitacion = () => {
                   
                 </div>
               </div>
+
+              <div className="regalos-sobres">
+                <div className="regalos-sobres-tittle">
+                  <img src="./icons/sobres.svg" alt="" />
+                  <h3>Lluvia de Sobres</h3>
+                </div>
+                <div className="regalos-sobres-body">
+                  <p>{regalos_frase}</p>
+                </div>
+              </div>
+
               <div className="regalos-banner">
                 <img src="./img/back_2.webp" alt="" />
               </div>
