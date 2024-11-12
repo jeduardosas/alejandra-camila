@@ -157,7 +157,7 @@ export const dataBautizo={
         id:2,
         time:'14:30 Hrs',
         name:'Recepción',
-        icon:'votos_boda',
+        icon:'recepcion',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -166,7 +166,7 @@ export const dataBautizo={
         id:3,
         time:'15:30',
         name:'Comida',
-        icon:'recepcion',
+        icon:'comida',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -174,7 +174,7 @@ export const dataBautizo={
         id:4,
         time:'17:00 Hrs',
         name:'Bolo',
-        icon:'comida',
+        icon:'cruz',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },

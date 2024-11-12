@@ -54,6 +54,8 @@ a{
   margin-bottom: -55px;
   
 }
-.banner-img img{
+.banner-img img,
+.banner img{
   max-width: 100%;
 }
+

@@ -58,7 +58,7 @@ const Invitacion = () => {
           img_banner1,
           img_header} = dataBautizo
 
-  const song = './music/song1.mp3'
+  const song = './music/song.mp3'
 
   
   const [play,setPlay] = useState(false); //estado para manejar la reproduccion del audio
@@ -178,6 +178,10 @@ const Invitacion = () => {
                 </div>
               </section>
 
+              <div className="banner">
+                <img src="./img/alas1.webp" alt="img-banner" />
+              </div>
+
               <div className="datos-item">
                 <div className="datos-item_tittle">
                   <div className="datos-item_tittle-icon">
@@ -244,6 +248,10 @@ const Invitacion = () => {
             {/*::::::::::T I M E L I N E:::::::::: */}
             <TimeLine />
 
+            <div className="banner">
+              <img src="./img/flor1.webp" alt="" />
+            </div>
+
             {/*::::::::::R E G A L O S :::::::::: */}
 
             <div className="banner-img">
@@ -293,7 +301,9 @@ const Invitacion = () => {
               </div>
             </section>
 
-            
+            <div className="banner">
+              <img src="./img/flor2.webp" alt="" />
+            </div>
 
             <Slider />
 
@@ -326,7 +336,9 @@ const Invitacion = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section>´
+
+            
 
             
 
